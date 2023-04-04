@@ -8,7 +8,7 @@ fake_ru = Faker(locale="ru_RU")
 random_books = {}
 
 def main():
-    fields(1)
+    fields(10)
 
 def fields(count_) -> dict:
     """
